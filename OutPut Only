@@ -1,0 +1,22 @@
+When adding two numbers
+We 'hold' usually the digit '1' and we add it 
+at the next stage during the calculation addition process
+usually from right to left
+We can do it with reverse 
+we move from the left to right 
+
+//example
+ 2785 + 5347 = 8132 and sum of 8+1+3+2=14 and sum of 1+4=5 
+
+entering with numbers 2785 5347 (they are vertical)
+
+0 a[i] 2 b[i] 5 with sum as [7] | and y[i] 0 and z[i] 7 | and  fnlz (7) with sum of {7}
+1 a[i] 7 b[i] 3 with sum as [10] | and y[i] 1 and z[i] 0 | and  fnlz (0) with sum of {0}
+2 a[i] 8 b[i] 4 with sum as [12] | and y[i] 1 and z[i] 2 | and  fnlz (3) with sum of {3}
+3 a[i] 5 b[i] 7 with sum as [12] | and y[i] 1 and z[i] 2 | and  fnlz (13) with sum of {4}
+
+with 41 23 14 <-----> and 5 5 5
+
+41=[7+10+12+12]
+23=(7+0+3+13)
+14={7+3+0+4}
